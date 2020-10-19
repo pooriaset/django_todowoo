@@ -1,0 +1,35 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+
+    <div>
+        {{ error }}
+    </div>
+
+    {% if todo.important %}
+        <h1 style="color:red">{{ todo.title }}</h1>
+    {% else %}
+        <h1>{{ todo.title }}</h1>
+    {% endif %}
+
+    {% if todo.dateCompleted %}
+        Complete date time is : {{ todo.dateCompleted }}
+    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+        {{ forms.as_p }}
+        <input type="submit" value="Save"/>
+    </form>
+
+    {% if not todo.dateCompleted %}
+        <form method="POST" action="{% url 'completeTodo' todo_pk=todo.id %}">
+            {% csrf_token %}
+            <input type="submit" value="Complete!"/>
+        </form>
+    {% endif %}
+    <form method="post" action="{% url 'deleteTodo' todo_pk=todo.id %}" >
+    {% csrf_token %}
+    <input type="submit" value="Delete" />
+    </form>
+
+{% endblock %}
