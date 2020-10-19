@@ -21,6 +21,11 @@
     <a href="{% url 'login' %}">Login</a>|
     <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
+<br/>
+<a href="{% url 'home' %}">Home</a>|
+<a href="{% url 'current_todos' %}">Current Todos</a>|
+<a href="{% url 'completed' %}">Completed Todos</a>|
+<a href="{% url 'createTodo' %}">Create Todo</a>
 
 {% block content %}
 {% endblock %}
