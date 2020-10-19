@@ -32,6 +32,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pooria\Desktop\todowoo\todo" />
+      <recent name="C:\Users\Pooria\Desktop\todowoo" />
+    </key>
+  </component>
   <component name="RunManager" selected="Django Server.todowoo">
     <configuration name="signup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/todowoo/todo/templates/todo/signup.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -112,7 +118,7 @@
       <workItem from="1603113057157" duration="232000" />
       <workItem from="1603113297510" duration="20000" />
       <workItem from="1603113460506" duration="18000" />
-      <workItem from="1603113483125" duration="9960000" />
+      <workItem from="1603113483125" duration="12422000" />
     </task>
     <servers />
   </component>
@@ -128,6 +134,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="22" width="1092" height="838" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1603113533273" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603128443102">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1603128443102" />
     <state x="667" y="185" key="EnvironmentVariablesDialog" timestamp="1603095231605">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -136,22 +146,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1603113155198" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1603127155834">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1603129979727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603127155834" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1603127155834">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603129979727" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1603129979727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603127155834" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1603127155834">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603129979727" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1603129979727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603127155834" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1603127155834">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603129979727" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1603129979727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603127155834" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603129979727" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1603109028195">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

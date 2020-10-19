@@ -47,7 +47,7 @@ def login(request):
             return render(request, 'todo/login.html', {'forms': AuthenticationForm, 'error': error_message})
         else:
             auth_login(request, user)
-            if request.GET['next']:
+            if request.GET.get('next'):
                 return redirect(request.GET['next'])
             return redirect('current_todos')
     else:

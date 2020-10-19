@@ -1,5 +1,6 @@
 {% extends 'todo/base.html' %}
 {% block content %}
+        <h3>Completed Todo list</h3>
     <ul>
         {% for todo in todos %}
             <li>
@@ -9,4 +10,8 @@
             </li>
         {% endfor %}
     </ul>
+
+     {% if not todos %}
+        <p>Not found</p>
+    {% endif %}
 {% endblock %}

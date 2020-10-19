@@ -18,18 +18,24 @@
     <form method="post">
         {% csrf_token %}
         {{ forms.as_p }}
-        <input type="submit" value="Save"/>
+        <p>
+            <label>
+                <input name="important" type="checkbox"/>
+                <span>Important</span>
+            </label>
+        </p>
+        <input type="submit" class="waves-effect waves-light btn" value="Save"/>
     </form>
 
     {% if not todo.dateCompleted %}
         <form method="POST" action="{% url 'completeTodo' todo_pk=todo.id %}">
             {% csrf_token %}
-            <input type="submit" value="Complete!"/>
+            <input type="submit" class="waves-effect waves-light btn" value="Complete!"/>
         </form>
     {% endif %}
-    <form method="post" action="{% url 'deleteTodo' todo_pk=todo.id %}" >
-    {% csrf_token %}
-    <input type="submit" value="Delete" />
+    <form method="post" action="{% url 'deleteTodo' todo_pk=todo.id %}">
+        {% csrf_token %}
+        <input type="submit" class="waves-effect waves-light btn" value="Delete"/>
     </form>
 
 {% endblock %}

@@ -1,5 +1,6 @@
 {% extends 'todo/base.html' %}
 {% block content %}
+    <h3>Current Todo list</h3>
     <ul>
         {% for item in todos %}
 
@@ -13,6 +14,10 @@
             {% endif %}
 
         {% endfor %}
+
+    {% if not todos %}
+        <p>Not found</p>
+    {% endif %}
     </ul>
 {% endblock %}
 
